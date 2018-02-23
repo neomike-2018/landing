@@ -150,19 +150,24 @@ h3 {
 
 .gallery {
   position: relative;
-  font-size: 0;
+
 }
 
 .gallery > .img {
   position: relative;
-  display: inline-block;
+ float:left;
   width: 25%;
   border: 0.5px solid #ffffff;
   text-align: center;
+  height: 235px;
 }
 
 .gallery .img > img {
   width: 100%;
+}
+
+.clearfix {
+  clear:both;
 }
 
 .overlay {
