@@ -160,10 +160,14 @@ h3 {
   border: 0.5px solid #ffffff;
   text-align: center;
   height: 235px;
+  overflow: hidden;
 }
 
 .gallery .img > img {
   width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+
 }
 
 .clearfix {
